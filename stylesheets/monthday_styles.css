@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS';
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+.left-column {
+    padding-left: 0.2rem;
+    transition: 0.3;
+}
+
+#get-started {
+    justify-content: left;
+    margin: 0rem 9.7rem 1rem;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px 20px 10px;
+    border-radius: 25px;
+    font-size: 13px;
+    transition: opacity 0.3s;
+}
+
+#get-started:hover {
+    opacity: 0.6;
+}
+
+h1, h2, h3, p {
+    color: white;
+}
+
+.main-title {
+    /* These are all the settings for the main titles of the pages */
+    font-size: 72px;
+    text-align: left;
+    padding-top: 2%;
+    padding: 17rem 10rem 0.1rem;
+}
+
+#about {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    font-size: 17px;
+    padding: 0rem 10rem 2rem;
+}
+
+nav {
+    height: 70px;
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0rem calc((55vw - 1300px)/2);
+}
+
+.logo {
+    color: white;
+    text-align: left;
+    padding: 0.2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0 1.5rem;
+}

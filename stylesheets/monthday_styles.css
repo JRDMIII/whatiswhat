@@ -14,44 +14,71 @@ body {
     background-color: black;
 }
 
-.left-column {
-    padding-left: 0.2rem;
-    transition: 0.3;
+button:hover {
+    opacity: 0.8;
 }
 
-#get-started {
-    justify-content: left;
-    margin: 0rem 9.7rem 1rem;
+.answer-btn {
+    width: 80px;
+    justify-content: center;
     border: none;
-    background-color: white;
-    cursor: pointer;
-    padding: 10px 20px 10px;
+    padding: 10px 0.5% 10px;
     border-radius: 25px;
     font-size: 13px;
     transition: opacity 0.3s;
+    cursor: pointer;
 }
 
-#get-started:hover {
-    opacity: 0.6;
+.answer-btn:hover {
+    opacity: 0.85;
+}
+
+#btn-red {
+    background-color: red;
+}
+
+#btn-white {
+    background-color: white;
+}
+
+#btn-blue {
+    background-color: blue;
+}
+
+#btn-green {
+    background-color: green;
+}
+
+#btn-purple {
+    background-color: purple;
+}
+
+#btn-brown {
+    background-color: brown;
+}
+
+#btn-black {
+    background-color: #100111;
+    color: white;
+    transition: opacity 0s;
+    transition: background-color 0.5s;
+}
+
+#btn-black:hover {
+    opacity: 1;
+    background-color:darkgrey;
 }
 
 h1, h2, h3, p {
     color: white;
 }
 
-.main-title {
+.month-text {
     /* These are all the settings for the main titles of the pages */
-    font-size: 72px;
-    text-align: left;
+    font-size: 90px;
+    text-align: center;
     padding-top: 2%;
-    padding: 17rem 10rem 0.1rem;
-}
-
-#about {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: left;
-    font-size: 17px;
-    padding: 0rem 10rem 2rem;
+    padding: 15rem 10rem 0.1rem;
 }
 
 nav {
@@ -74,3 +101,16 @@ nav a {
     color: white;
     padding: 0 1.5rem;
 }
+
+.question {
+    width: 100%;
+    height: 50%;
+    align-self: center;
+}
+
+.answer-buttons {
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+}
+

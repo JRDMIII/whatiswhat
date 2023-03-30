@@ -6,20 +6,27 @@
     <link rel="stylesheet" href="stylesheets/monthday_styles.css">
 </head>
 <body>
+    <script src="scripts.js"></script>
     <nav>
         <div class="logo">
             <a href="main.html"><b>whatiswhat.</b></a>
         </div>
         <div class="nav-items">
-            <a href="monthsanddays.html">Months and Days</a>
+            <a href="monthday.html">Months and Days</a>
         </div>
     </nav>
 
     <div class="question">
-        <h1 class="main-title">whatiswhat.</h1>
-        <p id="about">After an absolutely fascinating conversation with my friends discussing the 
-            <br> appropriate colours for months of the year (?!) I decided to make a website to
-            <br> see how many people think like this and what they think <p>
-        <button id="get-started">Get Started</button>
+        <h1 class="month-text" id="month">January</h1>
+    </div>
+    <br>
+    <div class="answer-buttons">
+        <button class="answer-btn" id="btn-white" onclick="randomMonth()">White</button>
+        <button class="answer-btn" id="btn-red">Red</button>
+        <button class="answer-btn" id="btn-blue">Blue</button>
+        <button class="answer-btn" id="btn-brown">Brown</button>
+        <button class="answer-btn" id="btn-purple">Purple</button>
+        <button class="answer-btn" id="btn-black">Black</button>
+        <button class="answer-btn" id="btn-green">Green</button>
     </div>
 </body>
